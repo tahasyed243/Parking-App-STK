@@ -1,0 +1,27 @@
+{
+  "name": "parking-app-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "homepage": "https://tahasyed243.github.io/Parking-App-STK",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.11.0",
+    "react-snowfall": "^3.0.0"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0",
+    "@vitejs/plugin-react": "^4.2.0",
+    "@tailwindcss/vite": "^4.0.0",
+    "gh-pages": "^5.0.0"
+    
+  }
+}
